@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Josué França | Desenvolvedor Web</title>
+  <meta name="description" content="Portfólio de Josué Antônio França, desenvolvedor web com foco em front-end.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">Josué França</a>
+    <nav aria-label="Principal">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button id="tema" class="tema" type="button" aria-label="Alternar entre tema claro e escuro">
+      <span class="tema-icone" aria-hidden="true"></span>
+      <span id="tema-texto">Tema claro</span>
+    </button>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <h1>Oi, eu sou o Josué.</h1>
+        <p>Desenvolvedor web, mais puxado para o front-end. Construo sites e ferramentas com HTML, CSS, JavaScript e Python.</p>
+        <div class="botoes">
+          <!-- Troque 5500000000000 pelo seu número: 55 + DDD + número -->
+          <a class="btn btn-principal" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn btn-sec" href="#projetos">Ver projetos</a>
+        </div>
+      </div>
+
+      <div class="janela" aria-label="Resumo em código">
+        <div class="janela-barra"><span></span><span></span><span></span></div>
+        <pre id="codigo" aria-live="off"></pre>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao sobre reveal">
+  <img class="foto" src="foto (2).jpg" alt="Foto de Josué Antônio França" width="452" height="603">
+  <div class="sobre-texto">
+    <h2>Sobre mim</h2>
+    <p>Sou estudante de programação e desenvolvedor web. Gosto de transformar uma ideia em algo que a pessoa abre no navegador e usa. Meu foco é o front-end, e uso Python quando o projeto pede mais lógica.</p>
+    <p>Criei o Study.ly porque aprender a programar não precisa ser confuso. Agora estou atrás de freelas e de uma vaga ou estágio para crescer na prática.</p>
+    <ul class="chips" aria-label="Tecnologias">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li>
+    </ul>
+  </div>
+</section>
+
+    <section id="projetos" class="secao">
+      <h2>Projetos</h2>
+      <article class="projeto reveal">
+        <div class="projeto-corpo">
+          <h3>Study.ly</h3>
+          <p>Um programa para ensinar programação de um jeito simples e prático, com métodos de estudo e conteúdos para quem está começando.</p>
+          <ul class="chips chips-pequenos">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="botoes">
+            <!-- Troque # pelos links reais do Study.ly -->
+            <a class="btn btn-principal" href="#" target="_blank" rel="noopener">Abrir o site</a>
+            <a class="btn btn-sec" href="https://github.com/josuefranca/study.ly" target="_blank" rel="noopener">Ver código</a>
+          </div>
+        </div>
+      </article>
+      <!-- Para adicionar outro projeto, copie o bloco <article> acima e cole aqui -->
+    </section>
+
+    <section id="contato" class="secao reveal">
+      <h2>Vamos conversar?</h2>
+      <p>Me chame para um freela, uma vaga ou só para trocar ideia sobre código.</p>
+      <ul class="contatos">
+        <li><a href="https://wa.me/+558496946860" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://github.com/josuefranca" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/josu%C3%A9-ant%C3%B4nio-fran%C3%A7a-a5a2a5398" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano"></span> Josué Antônio França</p>
+  </footer>
+
+  <div class="brilho" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
